@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import css from './counter.module.css'
 
-import Button from '../Button/Button'
-import Button2 from '../Button/Button2'
-import Value from '../Value/Value'
-import Steps from '../Steps/Steps'
+import Button from '../Button/ButtonFuncional'
+import Button2 from '../Button/Button2Funcional'
+import Value from '../Value/ValueFuncional'
+import Steps from '../Steps/StepsFuncional'
 
 export default class Counter extends Component {
   constructor(state) {
@@ -31,7 +31,7 @@ export default class Counter extends Component {
         <Button onDecrement={this.handleMinusClick} symbol="-" />
         <Value value={currentCounter} />
         <Button2 onIncrement={this.handleMinusClick} symbol="+" />
-        <Steps steps={steps}/>
+        <Steps steps={steps} />
       </div>
     )
   }
