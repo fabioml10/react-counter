@@ -1,16 +1,14 @@
-import React, { Component, Fragment } from 'react';
+import React, { Fragment } from 'react';
 import Counter from './components/Counter/CounterHooks'
 import Band from './components/Band/BandHooks';
 
-export default class App extends Component {
-  render() {
-    return (
-      <Fragment>
-        <Band />
-        <Counter />
-        <Counter />
-        <Counter />
-      </Fragment>
-    )
-  }
+export default function App() {
+  return (
+    <Fragment>
+      <Band />
+      <Counter />
+      <Counter />
+      <Counter />
+    </Fragment>
+  )
 }
