@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import Counter from './components/Counter/Counter'
+import Counter from './components/Counter/CounterHooks'
 import Band from './components/Band/BandHooks';
 
 export default class App extends Component {
